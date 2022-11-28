@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{293E50C9-659F-4715-A6F8-FA32769570ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{402CCDC1-5E71-4E5F-B18D-B4B419DDD68E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presantation", "Presantation", "{B9FFECDB-0BB8-4E94-80F5-B0801D0C0E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolProject.Web", "schoolProject.Web\schoolProject.Web.csproj", "{BC8EFC01-A092-417D-9C56-F54C357D6978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolProject.Persistence", "schoolProject.Persistence\schoolProject.Persistence.csproj", "{D20C9035-B57B-4156-BF27-3CC57096FA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolProject.Insfastructure", "schoolProject.Insfastructure\schoolProject.Insfastructure.csproj", "{60A8149D-F454-4749-94B1-00855CC38021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolProject.Application", "schoolProject.Application\schoolProject.Application.csproj", "{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolProject.Domain", "schoolProject.Domain\schoolProject.Domain.csproj", "{AB53051E-0EC0-469A-BB1F-129F184A3106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8EFC01-A092-417D-9C56-F54C357D6978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8EFC01-A092-417D-9C56-F54C357D6978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8EFC01-A092-417D-9C56-F54C357D6978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8EFC01-A092-417D-9C56-F54C357D6978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20C9035-B57B-4156-BF27-3CC57096FA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20C9035-B57B-4156-BF27-3CC57096FA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20C9035-B57B-4156-BF27-3CC57096FA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20C9035-B57B-4156-BF27-3CC57096FA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A8149D-F454-4749-94B1-00855CC38021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A8149D-F454-4749-94B1-00855CC38021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A8149D-F454-4749-94B1-00855CC38021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A8149D-F454-4749-94B1-00855CC38021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB53051E-0EC0-469A-BB1F-129F184A3106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB53051E-0EC0-469A-BB1F-129F184A3106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB53051E-0EC0-469A-BB1F-129F184A3106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB53051E-0EC0-469A-BB1F-129F184A3106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC8EFC01-A092-417D-9C56-F54C357D6978} = {B9FFECDB-0BB8-4E94-80F5-B0801D0C0E6B}
+		{D20C9035-B57B-4156-BF27-3CC57096FA67} = {402CCDC1-5E71-4E5F-B18D-B4B419DDD68E}
+		{60A8149D-F454-4749-94B1-00855CC38021} = {402CCDC1-5E71-4E5F-B18D-B4B419DDD68E}
+		{85A6FFE3-D32D-433B-ACD3-3F5AD61BF3BF} = {293E50C9-659F-4715-A6F8-FA32769570ED}
+		{AB53051E-0EC0-469A-BB1F-129F184A3106} = {293E50C9-659F-4715-A6F8-FA32769570ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB7D996C-D7D8-4B1B-8C08-DF66161E1890}
+	EndGlobalSection
+EndGlobal
